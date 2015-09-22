@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C2A997C3-D5EF-4AC4-875D-6E74D9D191D8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>JoseHernandezEstudio</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>JoseHernandezEstudio.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>JoseHernandezEstudio.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmobra.Designer.vb">
+      <DependentUpon>frmobra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmobra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContratistas.Designer.vb">
+      <DependentUpon>frmContratistas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmContratistas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmclientes.Designer.vb">
+      <DependentUpon>frmclientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmclientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JH2DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JH2DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="JH2DataSet.vb">
+      <DependentUpon>JH2DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.vb">
+      <DependentUpon>Principal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmclientes.resx">
+      <DependentUpon>frmclientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContratistas.resx">
+      <DependentUpon>frmContratistas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmobra.resx">
+      <DependentUpon>frmobra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="JH2DataSet.xsc">
+      <DependentUpon>JH2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="JH2DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>JH2DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="JH2DataSet.xss">
+      <DependentUpon>JH2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="JH2.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\zoom+.ico" />
+    <None Include="Resources\zoom-.ico" />
+    <None Include="Resources\windows.ico" />
+    <None Include="Resources\window.ico" />
+    <None Include="Resources\web-search.ico" />
+    <None Include="Resources\web-dir.ico" />
+    <None Include="Resources\view-save.ico" />
+    <None Include="Resources\view.ico" />
+    <None Include="Resources\user-online.ico" />
+    <None Include="Resources\user-offline.ico" />
+    <None Include="Resources\user3.ico" />
+    <None Include="Resources\user2.ico" />
+    <None Include="Resources\upload.ico" />
+    <None Include="Resources\up-.ico" />
+    <None Include="Resources\up.ico" />
+    <None Include="Resources\unlock.ico" />
+    <None Include="Resources\uninstall.ico" />
+    <None Include="Resources\support.ico" />
+    <None Include="Resources\stop2.ico" />
+    <None Include="Resources\stop.ico" />
+    <None Include="Resources\statistics2.ico" />
+    <None Include="Resources\statistics.ico" />
+    <None Include="Resources\star.ico" />
+    <None Include="Resources\sound-off.ico" />
+    <None Include="Resources\sound.ico" />
+    <None Include="Resources\smiley.ico" />
+    <None Include="Resources\search.ico" />
+    <None Include="Resources\save-new.ico" />
+    <None Include="Resources\save-as.ico" />
+    <None Include="Resources\save1.ico" />
+    <None Include="Resources\reward.ico" />
+    <None Include="Resources\remove-note.ico" />
+    <None Include="Resources\remove-folder.ico" />
+    <None Include="Resources\remove-file.ico" />
+    <None Include="Resources\remove1.ico" />
+    <None Include="Resources\refresh.ico" />
+    <None Include="Resources\record.ico" />
+    <None Include="Resources\print-preview.ico" />
+    <None Include="Resources\print.ico" />
+    <None Include="Resources\price.ico" />
+    <None Include="Resources\police.ico" />
+    <None Include="Resources\play.ico" />
+    <None Include="Resources\pictures.ico" />
+    <None Include="Resources\pause.ico" />
+    <None Include="Resources\paste.ico" />
+    <None Include="Resources\ok.ico" />
+    <None Include="Resources\note.ico" />
+    <None Include="Resources\next-2.ico" />
+    <None Include="Resources\next-.ico" />
+    <None Include="Resources\network.ico" />
+    <None Include="Resources\monitor.ico" />
+    <None Include="Resources\misc4.ico" />
+    <None Include="Resources\misc3.ico" />
+    <None Include="Resources\misc2.ico" />
+    <None Include="Resources\misc1.ico" />
+    <None Include="Resources\lock.ico" />
+    <None Include="Resources\last-page.ico" />
+    <None Include="Resources\installer.ico" />
+    <None Include="Resources\install.ico" />
+    <None Include="Resources\info.ico" />
+    <None Include="Resources\html.ico" />
+    <None Include="Resources\home.ico" />
+    <None Include="Resources\history.ico" />
+    <None Include="Resources\help.ico" />
+    <None Include="Resources\hd-as.ico" />
+    <None Include="Resources\hd.ico" />
+    <None Include="Resources\group.ico" />
+    <None Include="Resources\full-basket.ico" />
+    <None Include="Resources\ftp.ico" />
+    <None Include="Resources\forward.ico" />
+    <None Include="Resources\folder-open.ico" />
+    <None Include="Resources\folder.ico" />
+    <None Include="Resources\first-page.ico" />
+    <None Include="Resources\find-file.ico" />
+    <None Include="Resources\find-at-disc.ico" />
+    <None Include="Resources\file-lock.ico" />
+    <None Include="Resources\file.ico" />
+    <None Include="Resources\fast-forward.ico" />
+    <None Include="Resources\explorer.ico" />
+    <None Include="Resources\engine.ico" />
+    <None Include="Resources\email.ico" />
+    <None Include="Resources\edit-tool1.ico" />
+    <None Include="Resources\edit.ico" />
+    <None Include="Resources\download.ico" />
+    <None Include="Resources\down-.ico" />
+    <None Include="Resources\down.ico" />
+    <None Include="Resources\delete-user.ico" />
+    <None Include="Resources\delete.ico" />
+    <None Include="Resources\ddb8.ico" />
+    <None Include="Resources\db7.ico" />
+    <None Include="Resources\db6.ico" />
+    <None Include="Resources\db5.ico" />
+    <None Include="Resources\db4.ico" />
+    <None Include="Resources\db3.ico" />
+    <None Include="Resources\db2.ico" />
+    <None Include="Resources\db1.ico" />
+    <None Include="Resources\db.ico" />
+    <None Include="Resources\cut.ico" />
+    <None Include="Resources\copy.ico" />
+    <None Include="Resources\contacts.ico" />
+    <None Include="Resources\clock.ico" />
+    <None Include="Resources\chat.ico" />
+    <None Include="Resources\cd.ico" />
+    <None Include="Resources\cc.ico" />
+    <None Include="Resources\cash-register.ico" />
+    <None Include="Resources\camera.ico" />
+    <None Include="Resources\calculator.ico" />
+    <None Include="Resources\cal.ico" />
+    <None Include="Resources\burn.ico" />
+    <None Include="Resources\box.ico" />
+    <None Include="Resources\book.ico" />
+    <None Include="Resources\basket.ico" />
+    <None Include="Resources\back-3.ico" />
+    <None Include="Resources\back-2.ico" />
+    <None Include="Resources\back-.ico" />
+    <None Include="Resources\back.ico" />
+    <None Include="Resources\annexed.ico" />
+    <None Include="Resources\alert.ico" />
+    <None Include="Resources\add-user1.ico" />
+    <None Include="Resources\add-star.ico" />
+    <None Include="Resources\add-printer.ico" />
+    <None Include="Resources\add-note.ico" />
+    <None Include="Resources\add-folder.ico" />
+    <None Include="Resources\add-file.ico" />
+    <None Include="Resources\add-favorite.ico" />
+    <None Include="Resources\add.ico" />
+    <None Include="Resources\images.png" />
+    <None Include="Resources\remove.ico" />
+    <None Include="Resources\edit-tool.ico" />
+    <None Include="Resources\save.ico" />
+    <None Include="Resources\add-user.ico" />
+    <None Include="Resources\CLIENTES POTENCIALES.gif" />
+    <None Include="Resources\dicas-para-contratar-mao-de-obra-6.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

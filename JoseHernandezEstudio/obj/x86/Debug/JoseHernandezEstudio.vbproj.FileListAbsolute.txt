@@ -1,0 +1,15 @@
+C:\Users\saabasus\documents\visual studio 2010\Projects\JoseHernandezEstudio\JoseHernandezEstudio\bin\Debug\JH2.accdb
+C:\Users\saabasus\documents\visual studio 2010\Projects\JoseHernandezEstudio\JoseHernandezEstudio\bin\Debug\JoseHernandezEstudio.exe.config
+C:\Users\saabasus\documents\visual studio 2010\Projects\JoseHernandezEstudio\JoseHernandezEstudio\bin\Debug\JoseHernandezEstudio.exe
+C:\Users\saabasus\documents\visual studio 2010\Projects\JoseHernandezEstudio\JoseHernandezEstudio\bin\Debug\JoseHernandezEstudio.pdb
+C:\Users\saabasus\documents\visual studio 2010\Projects\JoseHernandezEstudio\JoseHernandezEstudio\bin\Debug\JoseHernandezEstudio.xml
+C:\Users\saabasus\documents\visual studio 2010\Projects\JoseHernandezEstudio\JoseHernandezEstudio\obj\x86\Debug\WindowsApplication1.Principal.resources
+C:\Users\saabasus\documents\visual studio 2010\Projects\JoseHernandezEstudio\JoseHernandezEstudio\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\saabasus\documents\visual studio 2010\Projects\JoseHernandezEstudio\JoseHernandezEstudio\obj\x86\Debug\JoseHernandezEstudio.vbproj.GenerateResource.Cache
+C:\Users\saabasus\documents\visual studio 2010\Projects\JoseHernandezEstudio\JoseHernandezEstudio\obj\x86\Debug\JoseHernandezEstudio.exe
+C:\Users\saabasus\documents\visual studio 2010\Projects\JoseHernandezEstudio\JoseHernandezEstudio\obj\x86\Debug\JoseHernandezEstudio.xml
+C:\Users\saabasus\documents\visual studio 2010\Projects\JoseHernandezEstudio\JoseHernandezEstudio\obj\x86\Debug\JoseHernandezEstudio.pdb
+C:\Users\saabasus\documents\visual studio 2010\Projects\JoseHernandezEstudio\JoseHernandezEstudio\obj\x86\Debug\WindowsApplication1.frmclientes.resources
+C:\Users\saabasus\documents\visual studio 2010\Projects\JoseHernandezEstudio\JoseHernandezEstudio\obj\x86\Debug\WindowsApplication1.frmContratistas.resources
+C:\Users\saabasus\documents\visual studio 2010\Projects\JoseHernandezEstudio\JoseHernandezEstudio\obj\x86\Debug\WindowsApplication1.frmobra.resources
+C:\Users\saabasus\documents\visual studio 2010\Projects\JoseHernandezEstudio\JoseHernandezEstudio\obj\x86\Debug\WindowsApplication1.Form1.resources
